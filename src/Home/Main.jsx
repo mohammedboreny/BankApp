@@ -19,7 +19,7 @@ function createData(id, customerName, accountNumber, accountType) {
 export const Main = (props) => {
     const rows =  props.records;
   return (
-      <div className='container'>
+      <div className='container pt-5'>
           
           <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
